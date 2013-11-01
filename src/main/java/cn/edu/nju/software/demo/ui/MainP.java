@@ -18,6 +18,7 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
 import cn.edu.nju.software.demo.controller.ScoreController;
+import cn.edu.nju.software.demo.controller.impl.ScoreControllerImpl;
 
 /**
  * 
@@ -30,7 +31,7 @@ public class MainP extends JPanel {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private static ScoreController scoreController=new ScoreController();
+	private static ScoreController scoreController=new ScoreControllerImpl();
 	
 	//界面的显示
 			@SuppressWarnings("unused")

@@ -1,5 +1,7 @@
 package cn.edu.nju.software.demo.dao.impl;
 
+import cn.edu.nju.software.demo.dao.DaoHelper;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,8 +14,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Iterator;
-
-import cn.edu.nju.software.demo.dao.DaoHelper;
 
 /**
  * 

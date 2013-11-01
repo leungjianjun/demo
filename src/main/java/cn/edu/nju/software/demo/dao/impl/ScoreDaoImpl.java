@@ -19,7 +19,7 @@ import cn.edu.nju.software.demo.model.Score;
 public class ScoreDaoImpl implements ScoreDao {
 	
 	private static final String SCORE = "score";
-	private static DaoHelper daoHelper=DaoHelperImpl.getBaseDaoInstance();
+	private static DaoHelper daoHelper= DaoHelperImpl.getBaseDaoInstance();
 	private static ScoreDaoImpl scoreDao=new ScoreDaoImpl();
 	
 	public static ScoreDaoImpl getInstance(){
